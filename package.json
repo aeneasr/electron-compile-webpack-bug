@@ -6,10 +6,12 @@
   "author": "Aeneas Rekkas (arekkas) <aeneas@ory.am>",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "electron-prebuilt-compile": "^1.6.2",
     "webpack": "^2.4.1"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "babel index.js --out-file foo.js"
   }
 }

@@ -3,5 +3,8 @@
     "es2016-node5",
     "react"
   ],
-  "sourceMaps": "inline"
+  "sourceMaps": false,
+  "ignore": [
+    "node_modules/**"
+  ]
 }
