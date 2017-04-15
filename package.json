@@ -1,0 +1,15 @@
+{
+  "name": "electron-compile-webpack-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/arekkas/electron-compile-webpack-bug.git",
+  "author": "Aeneas Rekkas (arekkas) <aeneas@ory.am>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.6.2",
+    "webpack": "^2.4.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
