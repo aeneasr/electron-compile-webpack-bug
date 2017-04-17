@@ -2,8 +2,8 @@
 
 ```
 $ yarn install
-$ cd foo
+$ cd forge
 $ yarn install
 $ npm run start
-
+$ npm run package
 ```
